@@ -5,7 +5,7 @@
   --white-color:                  #ffffff;
   --primary-color:                #000000;
   --secondary-color:              #3d922c;
-  --section-bg-color:             #386030;
+  --section-bg-color:             #000000;
   --custom-btn-bg-color:          #4a732d;
   --custom-btn-bg-hover-color:    #024603;
   --dark-color:                   #000000;
@@ -611,7 +611,7 @@ strong {
 }
 
 .about-video-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
   border-radius: var(--border-radius-medium);
   bottom: 0;
   height: auto;
@@ -632,7 +632,6 @@ strong {
   position: relative;
   overflow: hidden;
   max-height: 450px;
-  cursor: pointer;
 }
 
 .team-block-wrap:hover .team-block-image {
@@ -641,6 +640,9 @@ strong {
 
 .team-block-image-wrap {
   width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
 }
 
 .team-block-image {
@@ -649,10 +651,11 @@ strong {
   width: 100%;
   height: 100%;
   transition: all 0.3s;
+  min-width: 800px;
 }
 
 .team-block-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
   position: absolute;
   z-index: 2;
   top: 0;
@@ -673,7 +676,7 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg');
+  background-image: url('../images/TacoBox-sign.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -832,7 +835,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
