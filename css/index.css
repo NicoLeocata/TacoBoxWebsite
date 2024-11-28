@@ -737,7 +737,7 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-color: #7c5c52;
+  background-color:#024603;
 }
 
 .reviews-block {
@@ -780,7 +780,6 @@ strong {
 .reviews-group i {
   color: var(--white-color);
 }
-
 
 /*---------------------------------------
   BOOKING SECTION              
