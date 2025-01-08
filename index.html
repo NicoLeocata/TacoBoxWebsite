@@ -1,666 +1,692 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="">
-        <meta name="author" content="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Taco Box Website</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- CSS FILES -->                
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Taco Box Website</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
-            
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link href="css/vegas.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap"
+        rel="stylesheet">
 
-        <link href="css/index.css" rel="stylesheet">
-        
-    </head>
-    
-    <body>
-                
-            <main>
-                <nav class="navbar navbar-expand-lg">                
-                    <div class="container">
-                        <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="images/TacoBoxLogo.png" class="navbar-brand-image" alt="">
-                            Taco Box
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/vegas.min.css" rel="stylesheet">
+
+    <link href="css/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/TacoBoxLogo.png" class="navbar-brand-image" alt="">
+                    Taco Box
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Our Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Locations</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="ms-lg-3">
+                        <a class="btn custom-btn custom-border-btn" href="reservation.html">
+                            Reservation
+                            <i class="bi-arrow-up-right ms-2"></i>
                         </a>
-        
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-        
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-lg-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_1">Home</a>
-                                </li>
-        
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_2">About</a>
-                                </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_3">Our Menu</a>
-                                </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_4">Locations</a>
-                                </li>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_5">Contact</a>
-                                </li>
-                            </ul>
+            <div class="container">
+                <div class="row align-items-center">
 
-                            <div class="ms-lg-3">
-                                <a class="btn custom-btn custom-border-btn" href="reservation.html">
-                                    Reservation
-                                    <i class="bi-arrow-up-right ms-2"></i>
+                    <div class="col-lg-6 col-12 mx-auto">
+                        <em class="small-text">Welcome to</em>
+
+                        <h1>Taco box</h1>
+
+                        <p class="text-white mb-4 pb-lg-2">
+                            your <em>favourite</em> mexican food in one place.
+                        </p>
+
+                        <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
+                            Our Story
+                        </a>
+
+                        <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Check
+                                Menu</strong></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="hero-slides"></div>
+        </section>
+
+
+        <section class="about-section section-padding" id="section_2">
+            <div class="section-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 col-12">
+                        <div class="ratio ratio-1x1">
+                            <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                                <source src="videos/tortillas.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                            <div class="about-video-info d-flex flex-column">
+                                <h4 class="mt-auto">¡Tortillas!</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                        <em class="text-white">Tacobox</em>
+
+                        <h2 class="text-white mb-3">Tortillas</h2>
+
+                        <p class="text-white">TACO BOX produces its own wheat and corn tortillas, as well as its own
+                            nachos!</p>
+
+                        <p class="text-white">We emphasize in the quality of every ingredient, ensuring authentic
+                            flavors in every bite. Each product is freshly made to bring out the richness of traditional
+                            Mexican recipes, making every meal a truly unique experience for customers seeking genuine,
+                            homemade taste.</p>
+
+                        <a href="#our-specialties" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Our
+                            Specialties</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="specialties-section section-padding section-bg" id="our-specialties">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                        <em class="text-white">Exclusive food</em>
+
+                        <h2 class="text-white">Our Specialties</h2>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4">
+                        <div class="team-block-wrap">
+                            <div class="team-block-info d-flex flex-column">
+                                <div class="d-flex mt-auto mb-3">
+                                    <h4 class="text-white mb-0">Fajitas de Pollo</h4>
+
+                                    <p class="badge ms-4"><em>1</em></p>
+                                </div>
+
+                                <p class="text-white mb-0">Grilled chicken with peppers and onions wrapped in Tortilla.
+                                </p>
+                            </div>
+
+                            <div class="team-block-image-wrap">
+                                <img src="images/fajitas-de-pollo.jpg" class="team-block-image img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4">
+                        <div class="team-block-wrap">
+                            <div class="team-block-info d-flex flex-column">
+                                <div class="d-flex mt-auto mb-3">
+                                    <h4 class="text-white mb-0">Nachos</h4>
+
+                                    <p class="badge ms-4"><em>2</em></p>
+                                </div>
+
+                                <p class="text-white mb-0">Tortilla chips with cheese and toppings.</p>
+                            </div>
+
+                            <div class="team-block-image-wrap">
+                                <img src="images/nachos.jpg" class="team-block-image img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4">
+                        <div class="team-block-wrap">
+                            <div class="team-block-info d-flex flex-column">
+                                <div class="d-flex mt-auto mb-3">
+                                    <h4 class="text-white mb-0">Mix Fajitas</h4>
+
+                                    <p class="badge ms-4"><em>3</em></p>
+                                </div>
+
+                                <p class="text-white mb-0">Grilled chicken and beef mix.</p>
+                            </div>
+
+                            <div class="team-block-image-wrap">
+                                <img src="images/mix-polloycarne.jpg" class="team-block-image img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-block-wrap">
+                            <div class="team-block-info d-flex flex-column">
+                                <div class="d-flex mt-auto mb-3">
+                                    <h4 class="text-white mb-0">Avocado Rolls</h4>
+
+                                    <p class="badge ms-4"><em>4</em></p>
+                                </div>
+
+                                <p class="text-white mb-0">Avocado and veggies in a crispy roll.</p>
+                            </div>
+
+                            <div class="team-block-image-wrap">
+                                <img src="images/avocado-rolls.jpg" class="team-block-image img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="menu-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                        <div class="menu-block-wrap">
+                            <div class="text-center mb-4 pb-lg-2">
+                                <em class="text-white">1</em>
+                                <h4 class="text-white">Starter</h4>
+                            </div>
+
+                            <div class="menu-block">
+                                <div class="d-flex">
+                                    <h6>Fajitas de Pollo</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$12.50</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>3 chicken fajitas in corn tortilla, sour cream, lettuce and pico de
+                                        gallo.</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block my-4">
+                                <div class="d-flex">
+                                    <h6>
+                                        Nachos
+                                    </h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="text-white ms-auto"><del>$16.50</del></strong>
+
+                                    <strong class="ms-2">$12.00</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Fried corn triangles with chilli sauce, melted cheese and sour cream</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block">
+                                <div class="d-flex">
+                                    <h6>Mix Fajitas
+                                        <span class="badge ms-3">Recommend</span>
+                                    </h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$15.0</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Loin and chicken</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block my-4">
+                                <div class="d-flex">
+                                    <h6>Cesar Salad</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$12.50</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>American style salad with parmesan and croutons</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block">
+                                <div class="d-flex">
+                                    <h6>XL Crispy Tacos</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$18.0</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>3 large loin tacos and 3 large chicken tacos, in a crunchy wheat
+                                        tortilla</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block my-4">
+                                <div class="d-flex">
+                                    <h6>Avocado Rolls</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$12.50</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>2 wheat tortillas filled with guacamole, tomatoes and avocados</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="menu-block-wrap">
+                            <div class="text-center mb-4 pb-lg-2">
+                                <em class="text-white">2</em>
+                                <h4 class="text-white">Drinks</h4>
+                            </div>
+
+                            <div class="menu-block">
+                                <div class="d-flex">
+                                    <h6>Mexican Bulldog</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="text-white ms-auto"><del>$12.50</del></strong>
+
+                                    <strong class="ms-2">$7.50</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Lemon, Strawberry or Peach. Frozen Margarita and 2 Coronas</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block my-4">
+                                <div class="d-flex">
+                                    <h6>
+                                        Pisco Sour
+                                        <span class="badge ms-3">Recommend</span>
+                                    </h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$5.90</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Pisco, Egg White, Bitter Angostura, Lemon and Sugar</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block">
+                                <div class="d-flex">
+                                    <h6>Campari Season</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$5.50</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Mint, lime, sirope, campari, aperitivo rosso, in a jar of 1.5lts to
+                                        share</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block my-4">
+                                <div class="d-flex">
+                                    <h6>Jumbo Mojito</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$7.50</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Frozen Mojito with Bacardi and 2 Dr. Lemon Lime</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block">
+                                <div class="d-flex">
+                                    <h6>Margarita Cuervo</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$7.25</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Jose Cuervo, Triple Sec, and Lemon Juice</small>
+                                </div>
+                            </div>
+
+                            <div class="menu-block my-4">
+                                <div class="d-flex">
+                                    <h6>Daiquiri</h6>
+
+                                    <span class="underline"></span>
+
+                                    <strong class="ms-auto">$6.25</strong>
+                                </div>
+
+                                <div class="border-top mt-2 pt-2">
+                                    <small>Bacardi, Strawberry or Peach.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="reviews-section section-padding section-bg" id="section_4">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                        <em class="text-white">Reviews by Customers</em>
+
+                        <h2 class="text-white">Testimonials</h2>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="timeline-container timeline-container-left">
+                            <div class="timeline-content">
+                                <div class="reviews-block">
+                                    <div class="reviews-block-image-wrap d-flex align-items-center">
+                                        <img src="images/reviews/peter.png" class="reviews-block-image img-fluid"
+                                            alt="">
+
+                                        <div class="">
+                                            <h6 class="text-white mb-0">Peter</h6>
+                                            <em class="text-white">Customers</em>
+                                        </div>
+                                    </div>
+
+                                    <div class="reviews-block-info">
+                                        <p>Really good Mexican food, we split the XL Crispy Tacos between two people and
+                                            it was the perfect amount of food… The atmosphere was incredible, they had
+                                            music nonstop which I loved. I will come again sometime since it was my
+                                            first time eating here</p>
+
+                                        <div class="d-flex border-top pt-3 mt-4">
+                                            <strong class="text-white">4.5
+                                                <small class="ms-2">Rating</small></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-container timeline-container-right">
+                            <div class="timeline-content">
+                                <div class="reviews-block">
+                                    <div class="reviews-block-image-wrap d-flex align-items-center">
+                                        <img src="images/reviews/matias.png" class="reviews-block-image img-fluid"
+                                            alt="">
+
+                                        <div class="">
+                                            <h6 class="text-white mb-0">Matias</h6>
+                                            <em class="text-white"> Customers</em>
+                                        </div>
+                                    </div>
+
+                                    <div class="reviews-block-info">
+                                        <p> The food was really good! So if you are looking for an awesome Mexican
+                                            place, in terms of food, this won't disappoint you.</p>
+
+                                        <div class="d-flex border-top pt-3 mt-4">
+                                            <strong class="text-white">4.5
+                                                <small class="ms-2">Rating</small></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-container timeline-container-left">
+                            <div class="timeline-content">
+                                <div class="reviews-block">
+                                    <div class="reviews-block-image-wrap d-flex align-items-center">
+                                        <img src="images/reviews/sam.png" class="reviews-block-image img-fluid" alt="">
+
+                                        <div class="">
+                                            <h6 class="text-white mb-0">Sam</h6>
+                                            <em class="text-white"> Customers</em>
+                                        </div>
+                                    </div>
+
+                                    <div class="reviews-block-info">
+                                        <p>Probably the best branch Mexican food. Tasty food and quick services. Worth
+                                            the wait.</p>
+
+                                        <div class="d-flex border-top pt-3 mt-4">
+                                            <strong class="text-white">4.5
+                                                <small class="ms-2">Rating</small></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-section section-padding" id="section_5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <em class="text-white">Say Hello</em>
+                        <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <form action="#" method="post" class="custom-form contact-form" role="form">
+
+                            <div class="row">
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
+
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Jackson"
+                                        required="">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="email" class="form-label">Email Address</label>
+
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
+                                        class="form-control" placeholder="Jack@gmail.com" required="">
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="message" class="form-label">How can we help?</label>
+
+                                    <textarea name="message" rows="4" class="form-control" id="message"
+                                        placeholder="Message" required=""></textarea>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 mx-auto mt-3">
+                                <button type="submit" class="form-control">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
+                        <iframe class="google-map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.418115292986!2d-58.486777388420094!3d-34.492282851509444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb16b8fdeb1a7%3A0xce7d9842f61f8875!2sTaco%20Box!5e0!3m2!1sen!2ses!4v1732803353078!5m2!1sen!2ses"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12 me-auto">
+                        <em class="text-white d-block mb-4">Where to find us?</em>
+
+                        <strong class="text-white">
+                            <i class="bi-geo-alt me-2"></i>
+                            Buenos Aires
+                        </strong>
+
+                        <ul class="social-icon mt-4">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook">
                                 </a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
+                            </li>
 
-
-                <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-
-                    <div class="container">
-                        <div class="row align-items-center">
-
-                            <div class="col-lg-6 col-12 mx-auto">
-                                <em class="small-text">Welcome to</em>
-                                
-                                <h1>Taco box</h1>
-
-                                <p class="text-white mb-4 pb-lg-2">
-                                    your <em>favourite</em> mexican food in one place.
-                                </p>
-
-                                <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
-                                    Our Story
+                            <li class="social-icon-item">
+                                <a href="https://x.com/minthu" target="_new" class="social-icon-link bi-twitter">
                                 </a>
+                            </li>
 
-                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Check Menu</strong></a>
-                            </div>
-
-                        </div>
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-whatsapp">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div class="hero-slides"></div>
-                </section>
+                    <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+                        <em class="text-white d-block mb-4">Contact</em>
 
+                        <p class="d-flex mb-1">
+                            <strong class="me-2">Phone:</strong>
+                            <a href="tel: 305-240-9671" class="site-footer-link">
+                                (11)
+                                61506076
+                            </a>
+                        </p>
 
-                <section class="about-section section-padding" id="section_2">
-                    <div class="section-overlay"></div>
-                    <div class="container">
-                        <div class="row align-items-center">
+                        <p class="d-flex">
+                            <strong class="me-2">Email:</strong>
 
-                            <div class="col-lg-6 col-12">
-                                <div class="ratio ratio-1x1">
-                                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                                        <source src="videos/tortillas.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
-
-                                    <div class="about-video-info d-flex flex-column">
-                                        <h4 class="mt-auto">¡Tortillas!</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
-                                <em class="text-white">Tacobox</em>
-
-                                <h2 class="text-white mb-3">Tortillas</h2>
-
-                                <p class="text-white">TACO BOX produces its own wheat and corn tortillas, as well as its own nachos!</p>
-
-                                <p class="text-white">We emphasize in the quality of every ingredient, ensuring authentic flavors in every bite. Each product is freshly made to bring out the richness of traditional Mexican recipes, making every meal a truly unique experience for customers seeking genuine, homemade taste.</p>
-
-                                <a href="#our-specialties" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Our Specialties</a>
-                            </div>
-
-                        </div>
+                            <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                tacobox@gmail.com
+                            </a>
+                        </p>
                     </div>
-                </section>
 
 
-                <section class="specialties-section section-padding section-bg" id="our-specialties">
-                    <div class="container">
-                        <div class="row justify-content-center">
+                    <div class="col-lg-5 col-12">
+                        <em class="text-white d-block mb-4">Opening Hours.</em>
 
-                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Exclusive food</em>
+                        <ul class="opening-hours-list">
+                            <li class="d-flex">
+                                Monday - Friday
+                                <span class="underline"></span>
 
-                                <h2 class="text-white">Our Specialties</h2>
-                            </div>
+                                <strong>18:00 - 1:00</strong>
+                            </li>
 
-                            <div class="col-lg-3 col-md-6 col-12 mb-4">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
-                                        <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Fajitas de Pollo</h4>
+                            <li class="d-flex">
+                                Saturday
+                                <span class="underline"></span>
 
-                                            <p class="badge ms-4"><em>1</em></p>
-                                        </div>
+                                <strong>18:00 - 4:30</strong>
+                            </li>
 
-                                        <p class="text-white mb-0">Grilled chicken with peppers and onions wrapped in Tortilla.</p>
-                                    </div>
+                            <li class="d-flex">
+                                Sunday
+                                <span class="underline"></span>
 
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/fajitas-de-pollo.jpg" class="team-block-image img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-12 mb-4">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
-                                        <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Nachos</h4>
-
-                                            <p class="badge ms-4"><em>2</em></p>
-                                        </div>
-
-                                        <p class="text-white mb-0">Tortilla chips with cheese and toppings.</p>
-                                    </div>
-
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/nachos.jpg" class="team-block-image img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-12 mb-4">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
-                                        <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Mix Fajitas</h4>
-
-                                            <p class="badge ms-4"><em>3</em></p>
-                                        </div>
-
-                                        <p class="text-white mb-0">Grilled chicken and beef mix.</p>
-                                    </div>
-
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/mix-polloycarne.jpg" class="team-block-image img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
-                                        <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Avocado Rolls</h4>
-
-                                            <p class="badge ms-4"><em>4</em></p>
-                                        </div>
-
-                                        <p class="text-white mb-0">Avocado and veggies in a crispy roll.</p>
-                                    </div>
-
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/avocado-rolls.jpg" class="team-block-image img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                                <strong>Closed</strong>
+                            </li>
+                        </ul>
                     </div>
-                </section>
 
-
-                <section class="menu-section section-padding" id="section_3">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                                <div class="menu-block-wrap">
-                                    <div class="text-center mb-4 pb-lg-2">
-                                        <em class="text-white">1</em>
-                                        <h4 class="text-white">Starter</h4>
-                                    </div>
-
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>Fajitas de Pollo</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$12.50</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>3 chicken fajitas in corn tortilla, sour cream, lettuce & pico de gallo.</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
-                                        <div class="d-flex">
-                                            <h6>
-                                                Nachos
-                                            </h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="text-white ms-auto"><del>$16.50</del></strong>
-
-                                            <strong class="ms-2">$12.00</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Fried corn triangles with chilli sauce, melted cheese and sour cream</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>Mix Fajitas
-                                                <span class="badge ms-3">Recommend</span>
-                                            </h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$15.0</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Loin and chicken</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
-                                        <div class="d-flex">
-                                            <h6>Cesar Salad</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$12.50</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>American style salad with parmesan and croutons</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>XL Crispy Tacos</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$18.0</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>3 large loin tacos and 3 large chicken tacos, in a crunchy wheat tortilla</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
-                                        <div class="d-flex">
-                                            <h6>Avocado Rolls</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$12.50</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>2 wheat tortillas filled with guacamole, tomatoes and avocados</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="menu-block-wrap">
-                                    <div class="text-center mb-4 pb-lg-2">
-                                        <em class="text-white">2</em>
-                                        <h4 class="text-white">Drinks</h4>
-                                    </div>
-
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>Mexican Bulldog</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="text-white ms-auto"><del>$12.50</del></strong>
-
-                                            <strong class="ms-2">$7.50</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Lemon, Strawberry or Peach. Frozen Margarita & 2 Coronas</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
-                                        <div class="d-flex">
-                                            <h6>
-                                                Pisco Sour
-                                                <span class="badge ms-3">Recommend</span>
-                                            </h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$5.90</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Pisco, Egg White, Bitter Angostura, Lemon and Sugar</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>Campari Season</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$5.50</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Mint, lime, sirope, campari, aperitivo rosso, in a jar of 1.5lts to share</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
-                                        <div class="d-flex">
-                                            <h6>Jumbo Mojito</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$7.50</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Frozen Mojito with Bacardi & 2 Dr. Lemon Lime</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>Margarita Cuervo</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$7.25</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Jose Cuervo, Triple Sec, and Lemon Juice</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
-                                        <div class="d-flex">
-                                            <h6>Daiquiri</h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$6.25</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Bacardi, Strawberry or Peach.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div class="col-lg-8 col-12 mt-4">
+                        <p class="copyright-text mb-0">Copyright © Taco Box 2024 </p>
                     </div>
-                </section>
+                </div>
+            </div>
+        </footer>
+    </main>
 
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/custom.js"></script>
 
-                <section class="reviews-section section-padding section-bg" id="section_4">
-                    <div class="container">
-                        <div class="row justify-content-center">
+</body>
 
-                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Reviews by Customers</em>
-
-                                <h2 class="text-white">Testimonials</h2>
-                            </div>
-
-                            <div class="timeline">
-                                <div class="timeline-container timeline-container-left">
-                                    <div class="timeline-content">
-                                        <div class="reviews-block">
-                                            <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/peter.png" class="reviews-block-image img-fluid" alt="">
-
-                                                <div class="">
-                                                    <h6 class="text-white mb-0">Peter</h6>
-                                                    <em class="text-white">Customers</em>
-                                                </div>
-                                            </div>
-
-                                            <div class="reviews-block-info">
-                                                <p>Really good Mexican food, we split the XL Crispy Tacos between two people and it was the perfect amount of food… The atmosphere was incredible, they had music nonstop which I loved. I will come again sometime since it was my first time eating here</p>
-
-                                                <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4.5 
-                                                    <small class="ms-2">Rating</small></strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-container timeline-container-right">
-                                    <div class="timeline-content">
-                                        <div class="reviews-block">
-                                            <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/matias.png" class="reviews-block-image img-fluid" alt="">
-
-                                                <div class="">
-                                                    <h6 class="text-white mb-0">Matias</h6>
-                                                    <em class="text-white"> Customers</em>
-                                                </div>
-                                            </div>
-
-                                            <div class="reviews-block-info">
-                                                <p> The food was really good! So if you are looking for an awesome Mexican place, in terms of food, this won't disappoint you.</p>
-
-                                                <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4.5 
-                                                    <small class="ms-2">Rating</small></strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-container timeline-container-left">
-                                    <div class="timeline-content">
-                                        <div class="reviews-block">
-                                            <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/sam.png" class="reviews-block-image img-fluid" alt="">
-
-                                                <div class="">
-                                                    <h6 class="text-white mb-0">Sam</h6>
-                                                    <em class="text-white"> Customers</em>
-                                                </div>
-                                            </div>
-
-                                            <div class="reviews-block-info">
-                                                <p>Probably the best branch Mexican food. Tasty food and quick services. Worth the wait.</p>
-
-                                                <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4.5 
-                                                    <small class="ms-2">Rating</small></strong>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-
-                <section class="contact-section section-padding" id="section_5">
-                    <div class="container">
-                        <div class="row">   
-
-                            <div class="col-lg-12 col-12">
-                                <em class="text-white">Say Hello</em>
-                                <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <form action="#" method="post" class="custom-form contact-form" role="form">
-
-                                <div class="row">
-                                    
-                                    <div class="col-lg-6 col-12">
-                                        <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
-
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required="">
-                                    </div>
-
-                                    <div class="col-lg-6 col-12">
-                                        <label for="email" class="form-label">Email Address</label>
-
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required="">
-                                    </div>
-
-                                    <div class="col-12">
-                                        <label for="message" class="form-label">How can we help?</label>
-
-                                        <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message" required=""></textarea>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-5 col-12 mx-auto mt-3">
-                                    <button type="submit" class="form-control">Send Message</button>
-                                </div>
-                            </form>
-                            </div>
-
-                            <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
-                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.418115292986!2d-58.486777388420094!3d-34.492282851509444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb16b8fdeb1a7%3A0xce7d9842f61f8875!2sTaco%20Box!5e0!3m2!1sen!2ses!4v1732803353078!5m2!1sen!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-
-                <footer class="site-footer">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-4 col-12 me-auto">
-                                <em class="text-white d-block mb-4">Where to find us?</em>
-
-                                <strong class="text-white">
-                                    <i class="bi-geo-alt me-2"></i>
-                                    Buenos Aires
-                                </strong>
-
-                                <ul class="social-icon mt-4">
-                                    <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-facebook">
-                                        </a>
-                                    </li>
-        
-                                    <li class="social-icon-item">
-                                        <a href="https://x.com/minthu" target="_new" class="social-icon-link bi-twitter">
-                                        </a>
-                                    </li>
-
-                                    <li class="social-icon-item">
-                                        <a href="#" class="social-icon-link bi-whatsapp">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-                                <em class="text-white d-block mb-4">Contact</em>
-
-                                <p class="d-flex mb-1">
-                                    <strong class="me-2">Phone:</strong>
-                                    <a href="tel: 305-240-9671" class="site-footer-link">
-                                        (11) 
-                                        61506076
-                                    </a>
-                                </p>
-
-                                <p class="d-flex">
-                                    <strong class="me-2">Email:</strong>
-
-                                    <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                                        tacobox@gmail.com
-                                    </a>
-                                </p>
-                            </div>
-
-
-                            <div class="col-lg-5 col-12">
-                                <em class="text-white d-block mb-4">Opening Hours.</em>
-
-                                <ul class="opening-hours-list">
-                                    <li class="d-flex">
-                                        Monday - Friday
-                                        <span class="underline"></span>
-
-                                        <strong>18:00 - 1:00</strong>
-                                    </li>
-
-                                    <li class="d-flex">
-                                        Saturday
-                                        <span class="underline"></span>
-
-                                        <strong>18:00 - 4:30</strong>
-                                    </li>
-
-                                    <li class="d-flex">
-                                        Sunday
-                                        <span class="underline"></span>
-
-                                        <strong>Closed</strong>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="col-lg-8 col-12 mt-4">
-                                <p class="copyright-text mb-0">Copyright © Taco Box 2024
-                            </div>
-                    </div>
-                </footer>
-            </main>
-
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/vegas.min.js"></script>
-        <script src="js/custom.js"></script>
-
-    </body>
 </html>
